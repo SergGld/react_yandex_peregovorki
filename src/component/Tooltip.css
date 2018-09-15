@@ -1,0 +1,117 @@
+.ui-tooltip {
+    width: 300px;
+    text-align: center;
+    box-shadow: none;
+    padding-left: 16px;
+    padding-bottom: 10px;
+    text-align: left;
+    background: #FFFFFF;
+    border: none;
+    box-shadow: 0 1px 16px 0 rgba(0, 44, 92, 0.28);
+    border-radius: 8px;
+
+}
+
+.ui-tooltip-content {
+    position: relative;
+    padding: 0.5em;
+}
+
+.ui-tooltip-content::after,
+.ui-tooltip-content::before {
+    content: "";
+    position: absolute;
+    border-style: solid;
+    display: block;
+    left: 90px;
+}
+
+.bottom .ui-tooltip-content::before {
+    bottom: -10px;
+    border-color: #AAA transparent;
+    border-width: 10px 10px 0;
+    border: none;
+}
+
+.bottom .ui-tooltip-content::after {
+    bottom: -7px;
+    border-color: white transparent;
+    border-width: 10px 10px 0;
+    border: none;
+}
+
+.top .ui-tooltip-content::before {
+    top: -10px;
+    border-color: #AAA transparent;
+    border-width: 0 10px 10px;
+    border: none;
+}
+
+.top .ui-tooltip-content::after {
+    top: -7px;
+    border-color: white transparent;
+    border-width: 0 10px 10px;
+}
+
+.users-info {
+    vertical-align: text-bottom;
+}
+
+.users-info img {
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-right: 10px;
+}
+
+.meeting-name {
+    font-family: HelveticaNeue-Bold;
+    font-size: 15px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.meeting-info {
+    font-family: Helvetica;
+    font-size: 13px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 17px;
+
+}
+
+.user-count {
+    font-family: Helvetica;
+    font-size: 13px;
+    color: #37003E;
+    letter-spacing: 0;
+    line-height: 17px;
+}
+
+.user-name {
+    font-family: Helvetica;
+    font-size: 13px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 17px;
+    text-align: bottom;
+}
+
+.un-wrap {
+    padding-top: 5px;
+}
+
+.mn-wrap {
+    padding-top: 10px;
+}
+
+.meeting-edit-icon {
+    position: absolute;
+    /* background-image: url("../assets/edit.svg"); */
+    height: 25px;
+}
+
+.statusRollup {
+    position: relative;
+}

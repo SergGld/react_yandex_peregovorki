@@ -1,0 +1,17 @@
+.createbutton {
+    position: absolute;
+    right: 15px;
+    top: 13px;
+    border: none;
+    background-color: #007DFF;
+    border-radius: 4px;
+    padding: 8px 10px;
+    /* height: 36px; */
+    font-family: HelveticaNeue-Medium;
+    font-size: 2wv;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}

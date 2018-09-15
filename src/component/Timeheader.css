@@ -1,0 +1,64 @@
+.hour{
+    font-family: HelveticaNeue-Bold;
+    font-size: 11px;
+    color: #252525;
+    letter-spacing: 0.4px;
+    height: 18px;
+    float:left;
+    width:5%;
+    
+}
+.timeheaderwrap{
+    border-bottom: 1px solid #E9ECEF;
+    height: 40px;
+    display:flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+.dateblock{
+    width:18.5%;
+    align-self:baseline;
+    height: 40px;
+    vertical-align: middle;
+    line-height: 40px;
+    padding-left:1.5%;
+    /* padding-left:20px; */
+}
+.date{
+    display: inline-block;
+    padding: 0 10px;
+}
+.currenttime {
+    top: 80px;
+    background: #007DFF;
+    border-radius: 100px;
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    text-align: center;
+    font-family: HelveticaNeue-Bold;
+    font-size: 13px;
+    color: #FFFFFF;
+    letter-spacing: 0.4px;
+    z-index: 1001;
+    padding-top:2px;
+}
+.currenttimeline{
+    width: 1px;
+    background: #007DFF;
+    position: absolute;
+    top: 100px;
+    z-index:1000;
+}
+.greytime{
+    color: #858E98 !important;
+}
+.hourline{
+    position: absolute;
+    width: 1px;
+    z-index:999;
+    background-color:rgba(19, 100, 205, 0.10);
+    height: 700px;
+    top:123px;
+    height: 535px;
+}
